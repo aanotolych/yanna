@@ -152,6 +152,10 @@ h1 {
 	color: #151515;
 }
 
+.mobile-menu-list {
+	display: none;
+}
+
 /*** END MENU ***/
 /*** MAINSCREEN ***/
 
@@ -676,8 +680,8 @@ h1 {
 		padding: 32px 0 60px;
 	}
 
-	
 	.mobile-menu-list {
+		display: block;
 		list-style: none;
 		padding: 0;
 		margin: 0;
