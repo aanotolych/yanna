@@ -1,3 +1,65 @@
+/*** FONTS ***/
+@font-face {
+	font-family: 'Mazzard';
+	src: url(./MazzardM-Bold.eot);
+	src: url(./MazzardM-Bold.eot?#iefix) format('embedded-opentype'),
+	   url(./MazzardM-Bold.otf) format('otf'),
+	   url(./MazzardM-Bold.woff) format('woff'),
+	   url(./MazzardM-Bold.woff2) format('woff2');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'Mazzard';
+	src: url(./MazzardM-Light.eot);
+	src: url(./MazzardM-Light.eot?#iefix) format('embedded-opentype'),
+	   url(./MazzardM-Light.otf) format('otf'),
+	   url(./MazzardM-Light.woff2) format('woff2'),
+	   url(./MazzardM-Light.woff) format('woff');
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: 'Mazzard';
+	src: url(./MazzardM-Medium.eot);
+	src: url(./MazzardM-Medium.eot?#iefix) format('embedded-opentype'),
+	   url(./MazzardM-Medium.otf) format('otf'),
+	   url(./MazzardM-Medium.woff) format('woff'),
+	   url(./MazzardM-Medium.woff2) format('woff2');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'Mazzard';
+	src: url(./MazzardM-Regular.eot);
+	src: url(./MazzardM-Regular.eot?#iefix) format('embedded-opentype'),
+	   url(./MazzardM-Regular.otf) format('otf'),
+	   url(./MazzardM-Regular.woff) format('woff'),
+	   url(./MazzardM-Regular.woff2) format('woff2');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Mazzard';
+	src: url(./MazzardM-SemiBold.eot);
+	src: url(./MazzardM-SemiBold.eot?#iefix) format('embedded-opentype'),
+	   url(./MazzardM-SemiBold.otf) format('otf'),
+	   url(./MazzardM-SemiBold.woff) format('woff'),
+	   url(./MazzardM-SemiBold.woff2) format('woff2');
+	font-weight: 600;
+}
+
+/*
+font-family: 'MazzardM-Bold';
+font-family: 'MazzardM-Light';
+font-family: 'MazzardM-Medium';
+font-family: 'MazzardM-Regular';
+font-family: 'MazzardM-SemiBold';
+
+*/
+/*** END FONTS ***/
+
+
 /*** SPECIFICATION ***/
 
 * {
