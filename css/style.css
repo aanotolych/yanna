@@ -819,10 +819,12 @@ h1 {
 	}
 
 	.methods__item {
-		margin-bottom: 12px;
+		margin-bottom: 16px;
+		height: 300px;
 	}
 	.methods__item_text {
-		font-size: 20px;
+		font-size: 16px;
+		text-align: center;
 	}
 	.methods__item_text-hidden {
 		font-size: 14px;
@@ -833,10 +835,18 @@ h1 {
 	.prices-table__title, .prices-table__time, .prices-table__price {
 		font-size: 16px;
 	}
+	.prices-table__title {
+		max-width: 204px;
+	}
+	.prices-table__time {
+		font-size: 14px;
+	    display: block;
+	    margin-top: 2px;
+	}
 	.prices-table__row {
 		padding: 0;
-		padding-bottom: 12px;
-		margin-bottom: 24px;
+		padding-bottom: 10px;
+		margin-bottom: 32px;
 		border-right: 0;
 	}
 
@@ -868,7 +878,22 @@ h1 {
 		font-size: 20px;
 	}
 
+	.questions-wrap {
+		margin-top: 4px;
+	}
+	.questions-wrap__link, .questions-wrap__span {
+		font-size: 20px;
+	}
+	.questions-wrap__span {
+		padding: 0 8px;
+	}
+
 	.emergency-title {
 		font-size: 24px;
+		margin-bottom: 20px;
+	}
+	.emergency-text, .emergency-link{
+		font-size: 16px;
+		margin-bottom: 8px;
 	}
 }
