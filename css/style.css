@@ -345,10 +345,6 @@ h1 {
 /*** END FLOW ***/
 /*** ABOUT ***/
 
-.mainscreen {
-	background: url(./headline.png);
-}
-
 .about {
 	position: relative;
 	
@@ -720,6 +716,7 @@ h1 {
 @media (max-width:576px) {
 	section {
 		padding: 60px 0;
+		border-bottom: 1px solid #151515;
 	}
 	h1 {
 		font-size: 58px;
@@ -733,6 +730,8 @@ h1 {
 	}
 	.label {
 		font-size: 16px;
+		font-weight: 400;
+		margin-bottom: 4px;
 	}
 	.headline {
 		margin-bottom: 40px;
@@ -745,7 +744,7 @@ h1 {
 	}
 	.mainscreen {
 		height: auto;
-		padding: 20px 0 60px;
+		padding: 20px 0 52px;
 	}
 
 	.mobile-menu-list {
@@ -793,6 +792,11 @@ h1 {
 		margin-top: 18px;
 	}
 
+
+
+	.flow {
+    	padding: 52px 0 60px;
+	}
 	.flow-left {
 		position: relative;
 		top: 0;
@@ -800,15 +804,19 @@ h1 {
 	.flow-right {
 		column-gap: 12px;
     	row-gap: 12px;
-    	margin-top: 40px;
+    	margin-top: 32px;
 	}
 	.flow-el {
 		font-size: 14px;
+		padding: 24px;
 	}
 
 
+	.about-title {
+		max-width: 200px;
+	}
 	.about-text {
-		margin-bottom: 20px;
+		margin-bottom: 16px;
 	}
 	.about-content {
 		margin-left: 0;
@@ -816,6 +824,32 @@ h1 {
 	}
 	.about-link {
 		font-size: 19px;
+	}
+	.about-undertitle {
+		margin-bottom: 24px;
+	}
+	.about-list__item {
+		padding-bottom: 4px;
+		margin-bottom: 20px;
+	}
+	.about-list__edu_item {
+		width: calc(100% + 12px);
+	}
+	.about-list__membership {
+		margin-top: 28px;
+		margin-bottom: 40px;
+		padding: 12px 12px 0px;
+	}
+	.about-list__membership {
+		margin-bottom: 48px;
+		margin-top: 16px;
+	}
+	.about-list__edu {
+		margin-bottom: 48px;
+	}
+	.about-list__extra {
+    	margin-bottom: 15px;
+    	column-gap: 12px;
 	}
 
 	.methods__item {
