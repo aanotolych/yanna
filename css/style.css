@@ -347,7 +347,11 @@ h1 {
 
 .about {
 	position: relative;
-	
+}
+
+.about-video-label {
+	text-align: center;
+	margin-top: 20px;
 }
 
 .about-content {
@@ -500,9 +504,12 @@ h1 {
 	margin-top: 2px;
 }
 
-.prices-table__price_img {
-	width: 30px;
-	margin-top: -2px;
+.prices-table__price_sign {
+	font-family: 'Calibri';
+	margin-left: 6px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: -1px;
 }
 
 .prices-table__time {
