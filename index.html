@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Психолог - Янна Сергеевна Мойсюк</title>
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -12,7 +13,7 @@
 		
 	</header>
 
-	<nav id="navigation" class="menu">		
+	<!--nav id="navigation" class="menu">		
 		<ul class="menu-list">
 			<li class="menu-list_item">
 				<a class="menu-list_item__link" href="#flow">Направления</a>
@@ -30,7 +31,7 @@
 				<a class="menu-list_item__link" href="#questions">Контакты</a>
 			</li>
 		</ul>
-	</nav>
+	</nav-->
 	<section id="mainscreen" class="mainscreen">
 		<div class="container-xxl container-my">
 			<div class="row">
@@ -61,23 +62,39 @@
 					</div>
 				</div>
 			</div>
-			
-			<!--h1>Мойсюк <br><span>Янна</span> Сергеевна</h1>
-			<h1>
-				<img src="img/headline.svg" alt="">
-			</h1-->
 		</div>
+	</section>
+	<section class="menu-section" id="navigation">
+		<nav class="menu">		
+			<ul class="menu-list">
+				<li class="menu-list_item">
+					<a class="menu-list_item__link" href="#flow">Направления</a>
+				</li>
+				<li class="menu-list_item">
+					<a class="menu-list_item__link" href="#about">Обо мне</a>
+				</li>
+				<li class="menu-list_item">
+					<a class="menu-list_item__link" href="#prices">Стоимость</a>
+				</li>
+				<li class="menu-list_item">
+					<a class="menu-list_item__link" href="#methods">Подходы</a>
+				</li>
+				<li class="menu-list_item">
+					<a class="menu-list_item__link" href="#questions">Контакты</a>
+				</li>
+			</ul>
+		</nav>
 	</section>
 	<section id="flow" class="flow">
 		<div class="container-xxl container-my">
 			<div class="row">
-				<div class="col-12 col-xl-6">
+				<div class="col-12 col-md-6">
 					<div class="flow-left">
 						<span class="label">[Направления]</span>
 						<h2>Основные направления моеи работы</h2>
 					</div>
 				</div>
-				<div class="col-12 col-xl-6">
+				<div class="col-12 col-md-6">
 					<div class="flow-right">
 						<div class="flow-el flow-el-1">
 							<p class="flow-el__text">Проблемы<br> во взаимоотношениях/<br>Эмоциональная<br> зависимость</p>
@@ -113,16 +130,40 @@
 	<section id="about" class="about">
 		<div class="container-xxl container-my">
 			<div class="row">
-				<div class="col-12 col-xl-3">
-					
+				<div class="col-12 col-md-4 col-lg-3">
+
+
 					<div class="about-video sticky-video">
-						<div class="video-wrap">
-							<video id="videoAbout" poster="img/main.png" preload="auto" class="video-wrap__video" src="img/IMG_5122.mp4" playsinline></video>
-							<span class="label about-video-label">[Обо мне]</span>
+
+						<div class="video-wrap" id="video_container-first">
+							<div class="triangle about-triangle"></div>
+							<video id="videoAboutFirst" tabindex="0" poster="img/main.png" preload="auto" class="video-wrap__video" src="img/yavid.mp4" playsinline></video>
+							<svg  width="100%" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg" class="e-c">
+								<g transform="translate(110,110)">
+								<circle r="100" class="e-c-base"/>
+									<g transform="rotate(-90)">
+								  	<circle r="100" class="e-c-progress" id="e-c-progress-first"/>
+										<g id="e-pointer">
+										</g>
+									</g>
+								</g>
+							</svg>
 						</div>
 					</div>
+					
+					<!--div class="about-video sticky-video">
+						<div class="video-wrap">
+							<video id="videoAbout" poster="img/main.png" preload="auto" class="video-wrap__video" src="img/IMG_5122.mp4" playsinline></video>
+
+
+
+
+
+							<span class="label about-video-label">[Обо мне]</span>
+						</div>
+					</div-->
 				</div>
-				<div class="col-12 col-xl-9">
+				<div class="col-12 col-md-8 col-lg-9">
 					<h2 class="about-title headline">Мойсюк<br>Янна Сергеевна</h2>
 					<div class="about-content">
 						<p class="about-text about-text__first">Основой моей профессиональной философии является бережная и вместе с тем эффективная работа.</p>
@@ -165,7 +206,7 @@
 				</div>
 			</div>
 			<div class="row methods-wrap">
-				<div class="col-12 col-xl-4">
+				<div class="col-12 col-lg-4">
 					<div class="methods__item liened-square" data-focus="focus-1">
 						<p class="methods__item_text">Когнитивно-поведенческая терапия</p>
 						<p class="methods__item_text-hidden">
@@ -175,7 +216,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="col-12 col-xl-4">
+				<div class="col-12 col-lg-4">
 					<div class="methods__item liened-square" data-focus="focus-2">
 						<p class="methods__item_text">Схема-терапия</p>
 						<p class="methods__item_text-hidden">
@@ -185,7 +226,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="col-12 col-xl-4">
+				<div class="col-12 col-lg-4">
 					<div class="methods__item liened-square" data-focus="focus-3">
 						<p class="methods__item_text">Ориентированная на решение краткосрочная терапия</p>
 						<p class="methods__item_text-hidden">
@@ -205,7 +246,7 @@
 					<span class="label">[Стоимость]</span>
 					<h2 class="headline">Стоимость консультаций</h2>
 				</div>
-				<div class="offset-0 col-12 offset-xl-2 col-xl-8">
+				<div class="offset-0 col-12 offset-lg-1 col-lg-10 offset-xl-2 col-xl-8">
 					<div class="prices-table">
 						<div class="prices-table__row d-flex align-items-start justify-content-between">
 							<div class="prices-table__row_left">
@@ -248,16 +289,17 @@
 					<span class="label">[Этапы работ]</span>
 					<h2 class="headline">Как выглядит процесс психологического консультирования</h2>
 				</div>
-				<div class="col-12 col-xl-3">
+				<div class="col-12 col-sm-4 col-lg-3">
 					<div class="sticky-video">
-						<div class="about-video sticky-video">
+						<div class="about-video steps-video sticky-video">
 							<div class="video-wrap" id="video_container">
+								<div class="triangle about-triangle"></div>
 								<video id="videoAbout" tabindex="0" poster="img/main.png" preload="auto" class="video-wrap__video" src="img/yavid.mp4" playsinline></video>
 								<svg  width="100%" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg" class="e-c">
 									<g transform="translate(110,110)">
 									<circle r="100" class="e-c-base"/>
 										<g transform="rotate(-90)">
-									  	<circle r="100" class="e-c-progress"/>
+									  	<circle r="100" class="e-c-progress" id="e-c-progress"/>
 											<g id="e-pointer">
 											</g>
 										</g>
@@ -270,7 +312,7 @@
 						</div-->
 					</div>
 				</div>
-				<div class="col-12 offset-0 col-xl-8 offset-xl-1">
+				<div class="col-12 offset-0 col-sm-8 col-lg-9 col-xl-8 offset-xl-1">
 					<div class="steps-wrap">
 						<div class="steps-tem steps-tem-1">
 							<span class="steps-tem__label label">[1]</span>
@@ -302,7 +344,7 @@
 		<div class="container-xxl container-my sec">
 			<div class="row">
 				<div class="col-12">
-					<h2>ЕСЛИ У ВАС ЕСТЬ ВОПРОСЫ ПО КОНСУЛЬТАЦИИ, НАПИШИТЕ МНЕ В</h2>
+					<h2 class="questions__title">ЕСЛИ У ВАС ЕСТЬ ВОПРОСЫ ПО КОНСУЛЬТАЦИИ, НАПИШИТЕ МНЕ В</h2>
 				</div>
 				<div class="col-12">
 					<div class="questions-wrap d-block justify-content-center align-items-center d-flex justify-content-center align-items-center">
@@ -371,13 +413,15 @@
 				
 		var elementPosition = $('#navigation').offset();
 
+		
 		$(window).scroll(function(){
-	        if($(window).scrollTop() > elementPosition.top + 96){
+	        if($(window).scrollTop() > elementPosition.top){
 	              $('#navigation').addClass('menu-fixed');
 	        } else {
 	            $('#navigation').removeClass('menu-fixed');
 	        }    
 		});
+		
 
 		$('div.methods__item').hover(function() {
 			$(this).children( ".methods__item_text" ).fadeOut(300);
@@ -422,8 +466,22 @@
 		* для вопроса https://toster.ru/q/449024
 		* Как построить похожий график?
 		*/
-		var $progress = $('.e-c-progress')
+		var $progress = $('#e-c-progress')
 		,$indi = $('#e-indicator')
+		,len = Math.PI * 2 * 100
+		;
+		$progress.css('stroke-dasharray', len);
+
+		function update(v) {
+			$indi.text(v);
+			var offset = - len - len * v / 100;
+			$progress.css('stroke-dashoffset', offset);
+		};
+
+		update(0);
+
+		var $progress = $('#e-c-progress-first')
+		,$indi = $('#e-indicator-first')
 		,len = Math.PI * 2 * 100
 		;
 		$progress.css('stroke-dasharray', len);
@@ -441,9 +499,11 @@
 		$(function(){
 			$('#video_container').on( "click", function(){
 				if ($('#video_container').find('#videoAbout').get(0).paused) {
+					$('#video_container').find('.triangle').addClass("none");
 					$('#video_container').find('video').get(0).play();
 				} else {
 					$('#video_container').find('video').get(0).pause();
+					$('#video_container').find('.triangle').removeClass("none");
 				}
 			});
 		});
@@ -454,7 +514,35 @@
 		},20);
 
 		$("#videoAbout").on("ended", function (){
-		    this.src = this.src
+		    this.src = this.src;
+		    $('#video_container').find('.triangle').removeClass("none");
+		});
+
+
+
+
+		$('#video_container-first').find('#videoAboutFirst').get(0).load();
+
+		$(function(){
+			$('#video_container-first').on( "click", function(){
+				if ($('#video_container-first').find('#videoAboutFirst').get(0).paused) {
+					$('#video_container-first').find('.triangle').addClass("none");
+					$('#video_container-first').find('video').get(0).play();
+				} else {
+					$('#video_container-first').find('video').get(0).pause();
+					$('#video_container-first').find('.triangle').removeClass("none");
+				}
+			});
+		});
+
+		setInterval(function(){
+			var z = ($('#video_container-first').find('video').get(0).currentTime / $('#video_container-first').find('video').get(0).duration * 100);
+			update(z);
+		},20);
+
+		$("#videoAboutFirst").on("ended", function (){
+		    this.src = this.src;
+		    $('#video_container-first').find('.triangle').removeClass("none");
 		});
 
 
